@@ -1,0 +1,90 @@
+@use '../scss/partials/global' as *;
+
+body {
+  margin: 0;
+  color: black;
+}
+.container {
+  text-align: left;
+  margin-top: 50px;
+}
+h1, p, a {
+  margin: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.image {
+    width: 200px;  
+    height: auto; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+.container_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 650px;
+    width: 90%;
+  }
+
+.container2{
+    display: flex;
+}
+
+
+
+//table for the tech stacks
+.table {
+    border-collapse: collapse;
+    width: 80%; 
+    margin: 0 auto; 
+    padding-left: 90px;
+}
+
+table th, table td {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Snowflake styles */
+.snowflake {
+  position: absolute;
+  top: -10px;
+  color: white;
+  font-size: 1em;
+  opacity: 0.8;
+  animation: fall linear infinite;
+}
+@keyframes fall {
+  to {
+    transform: translateY(100vh);
+  }
+}
