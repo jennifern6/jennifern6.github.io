@@ -1,0 +1,71 @@
+
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'IBM Plex Mono', monospace;
+      line-height: 1.6;
+      background: linear-gradient(to right, #5e00ac, #f493cf);
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    
+
+    h1 {
+      color: #5e00ac;
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    a {
+      display: inline-block;
+      text-decoration: none;
+      color: black;
+      background: #f493cf;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    a:hover {
+      background: #5e00ac;
+    }
+
+
+
+    //scrollbar
+
+/* For WebKit-based browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f4f4f4; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #5e00ac; 
+    border-radius: 6px; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #5e00ac; 
+  }
+  
+  /* For Firefox */
+  body {
+    scrollbar-width: thin;
+    scrollbar-color: #5e00ac #f4f4f4; 
+  }
+  
